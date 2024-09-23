@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+typedef struct {
+  char nome;
+  int idade;
+  float nota;
+} Aluno;
+
+int main() {
+  Aluno a1, a2, a3;
+  printf("Aluno 1:\n");
+  scanf("%s %d %f", a1.nome, &a1.idade, &a1.nota);
+
+  printf("Aluno 2:\n");
+  scanf("%s %d %f", a2.nome, &a2.idade, &a2.nota);
+
+  printf("Aluno 3:\n");
+  scanf("%s %d %f", a3.nome, &a3.idade, &a3.nota);
+
+  printf("Dados dos alunos:\n");
+  printf("%s, %d, %.2f\n", a1.nome, a1.idade, a1.nota);
+  printf("%s, %d, %.2f\n", a2.nome, a2.idade, a2.nota);
+  printf("%s, %d, %.2f\n", a3.nome, a3.idade, a3.nota);
+
+ return 0;
+}
