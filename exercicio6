@@ -10,7 +10,7 @@ int main() {
         }
     }
 
-    printf("A matriz é:\n");
+    printf("A matriz e:\n");
     for (int f = 0; f < 2; f++) {
         for (int j = 0; j < 2; j++) {
             printf("%d ", matriz[f][j]);
