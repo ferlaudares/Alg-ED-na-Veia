@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int j = 10;
+    int f = 11;
+    int s = 20;
+
+    int somatoria = j + f + s;
+    printf(" A somatoria dos numeros e %d\n",somatoria);
+
+    return 0;
+}
