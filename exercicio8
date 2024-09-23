@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char string[100];
+
+    printf("Digite uma palavra: ");
+    scanf("%s", string);
+
+    int tamanho = strlen(string);
+
+    printf("A palavra tem %d caracteres.\n", tamanho);
+
+    return 0;
+}
