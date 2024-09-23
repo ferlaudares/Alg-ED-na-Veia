@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int l = 65;
+    int p = 8;
+    int i = 42;
+
+    int media = l + p + i/3;
+    printf(" A media dos numeros e %d\n",media);
+
+    return 0;
+}
